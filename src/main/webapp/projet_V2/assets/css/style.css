@@ -1,0 +1,348 @@
+#page_content{
+    max-width: 1180px;
+}
+
+#home-tab.active, #profile-tab.active {
+    background-color: #5e72e4;
+    color: white;
+}
+
+/* Start offres section */
+
+.courses .course-item {
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #eef0ef;
+}
+
+.course-item .img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.course-content{
+    padding: 15px;
+}
+
+.course-content h4{
+    font-size: 14px;
+    background: #5e72e4;
+    padding: 7px 14px;
+    color: #fff;
+    margin: 0;
+}
+
+.price{
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    color: #37423b;
+}
+
+/* End offres section */
+
+/* Start Profs section */
+
+.trainer-profile .img-fluid{
+    width: 50px;
+    height:50px;
+    max-height:50px;
+    min-height:50px;
+    border-radius: 50px;
+}
+
+.courses .trainer {
+    padding-top: 15px;
+    border-top: 1px solid #2dce89; 
+}
+
+.card-footer{
+    padding: 0;
+}
+
+.card-footer .btn {
+    width: 100%;
+}
+
+.trainers .member {
+    text-align: center;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #eef0ef;
+}
+
+.trainers .member img {
+    margin: -1px -1px 30px -1px;
+}
+
+.trainers .member .member-content {
+    padding: 0 20px 30px 20px;
+}
+
+.trainers .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+.trainers .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+}
+
+.trainers .member p {
+    padding-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #aaaaaa;
+}
+
+.trainers .member .social {
+    margin-top: 15px;
+}
+
+.trainers .member .social a {
+    color: #7e9486;
+    transition: 0.3s;
+}
+
+.trainers .member .social a:hover {
+    color: #5e72e4;
+}
+
+hr{
+    margin: 70px auto;
+    width: 15%;
+    border-top: 10px dotted #5e72e4;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+
+}
+
+.section-title {
+    padding-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #5e72e4;
+    margin: 4px 10px;
+}
+
+.section-title p, .section-title a {
+    margin: 0;
+    margin: 0;
+    font-size: 32px;
+    font-weight: 650;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #37423b;
+}
+
+.section-title a {
+    font-size: 23px;
+}
+
+.breadcrumbs {
+    margin-top: 73px;
+    text-align: center;
+    background: #5e72e4;
+    padding: 30px 0;
+    color: #fff;
+}
+
+/* Start Profs section */
+
+/* Start About Us */
+
+.counts {
+    padding: 30px 0;
+}
+
+.counts .counters span {
+    font-size: 48px;
+    display: block;
+    color: #7070b1;
+    font-weight: 700;
+}
+
+.swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+}
+
+.testimonials .testimonial-wrap {
+    padding-left: 50px;
+}
+
+
+.testimonials .testimonial-item {
+    box-sizing: content-box;
+    padding: 30px 30px 30px 60px;
+    margin: 30px 15px;
+    min-height: 200px;
+    border: 1px solid #eef0ef;
+    position: relative;
+    background: #fff;
+}
+
+.testimonials .testimonial-item .testimonial-img {
+    width: 90px;
+    border-radius: 10px;
+    border: 6px solid #fff;
+    position: absolute;
+    left: -45px;
+}
+
+
+.testimonials .testimonial-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #111;
+}
+
+.testimonials .testimonial-item h4 {
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+}
+
+.testimonials .testimonial-item p {
+    font-style: italic;
+    margin: 15px auto 15px auto;
+}
+
+.testimonials .testimonial-item .quote-icon-left {
+    display: inline-block;
+    left: -5px;
+    position: relative;
+}
+
+.testimonials .testimonial-item .quote-icon-right {
+    display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 10px;
+}
+
+.contact .php-email-form button[type="submit"] {
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+.fa-trash{
+    color: #D11A2A;
+}
+.fa-pen{
+    color: #008000;
+}
+.fa-check{
+    color: #008000;
+}
+
+
+
+
+/* css for rate in mesoffre.html*/
+.txt-center {
+    text-align: center;
+  }
+  .hide {
+    display: none;
+  }
+  
+  .clear {
+    float: none;
+    clear: both;
+  }
+  
+  .rating {
+      width: 90px;
+      unicode-bidi: bidi-override;
+      direction: rtl;
+      text-align: center;
+      position: relative;
+  }
+  
+  .rating > label {
+      float: right;
+      display: inline;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      width: 1.1em;
+      cursor: pointer;
+      color: #000;
+  }
+  
+  .rating > label:hover,
+  .rating > label:hover ~ label,
+  .rating > input.radio-btn:checked ~ label {
+      color: transparent;
+  }
+  
+  .rating > label:hover:before,
+  .rating > label:hover ~ label:before,
+  .rating > input.radio-btn:checked ~ label:before,
+  .rating > input.radio-btn:checked ~ label:before {
+      content: "\2605";
+      position: absolute;
+      left: 0;
+      color: #FFD700;
+  }
+  .dot {
+    position: absolute;
+  top: 35px;
+  left: 65px;
+  height: 25px;
+  width: 25px;
+  background-color: #172b4d;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  color: #f8f9fe;
+  cursor: pointer;
+}
+.dot input{
+    display: none;
+}
+.dot:hover{
+    cursor: pointer;
+   color: #525f7f;
+  
+   transform: translate(-1%, -1%) scale(1.20);
+}
+.size-img{
+	width:305px;
+    min-height: 305px;
+    max-height: auto;
+    margin: 3px;
+    padding: 3px;
+    opacity:0.5;
+}
+.card-admin{
+    height: 25rem;
+}
